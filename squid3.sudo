@@ -1,0 +1,1 @@
+www-data ALL = (proxy) NOPASSWD: /usr/lib/squid3/ext_session_acl

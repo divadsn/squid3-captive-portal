@@ -18,6 +18,7 @@
 
 	require_once(DIR_PATH . "/config/lang/" . $langauge . ".php");
 
+	require_once(DIR_PATH . "/classes/class.email.php");
 	require_once(DIR_PATH . "/classes/class.user.php");
 	require_once(DIR_PATH . "/classes/class.group.php");
 	require_once(DIR_PATH . "/classes/funcs.general.php");

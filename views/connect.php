@@ -48,7 +48,7 @@
               <script>
                 setTimeout(function () {
                   window.location.href = "<?= $url; ?>";
-                }, 10000);
+                }, 5000);
               </script>
               <?php else: ?>
               <form method="post" action="announce.php" accept-charset="utf-8" role="form">

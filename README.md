@@ -1,6 +1,8 @@
 # squid3-captive-portal
 Version 0.1-alpha, Work In Progress
 
+[![Gitter](https://badges.gitter.im/codebucketdev/squid3-captive-portal.svg)](https://gitter.im/codebucketdev/squid3-captive-portal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ## Introduction
 
 Squid3 setup for restricting access by captive portal. Users are required to log in before they will be allowed to access the Internet and access local resources.

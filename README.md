@@ -1,4 +1,6 @@
 # squid3-captive-portal
+
+[![Join the chat at https://gitter.im/codebucketdev/squid3-captive-portal](https://badges.gitter.im/codebucketdev/squid3-captive-portal.svg)](https://gitter.im/codebucketdev/squid3-captive-portal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Version 0.1-alpha, Work In Progress
 
 ## Introduction

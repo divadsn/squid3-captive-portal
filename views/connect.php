@@ -51,7 +51,7 @@
                 }, 5000);
               </script>
               <?php else: ?>
-              <form method="post" action="connect.php" accept-charset="utf-8" role="form">
+              <form method="post" action="" accept-charset="utf-8" role="form">
                 <fieldset>
                   <p>By using the Guest Network you are agreeing to comply with and be bound by the following terms and conditions of use. If you disagree with any part of these terms and conditions, you may not use the Guest Network.</p>
                   <ul>
@@ -65,7 +65,6 @@
                     <li>Port scanning or security scanning on a production network unless authorized in advance by Information Security.</li>
                   </ul>
                   <span class="help-block">By clicking on "Continue", you agree to the Terms and Conditions and our Privacy Policy.</span>
-                  <input class="form-control" name="redirect_to" type="hidden" value="<?= $url; ?>" />
                   <input class="form-control" name="form_id" type="hidden" value="<?= $form_hash; ?>" />
                   <input class="btn btn-lg btn-success btn-block" name="submit" type="submit" value="Continue" />
                 </fieldset>

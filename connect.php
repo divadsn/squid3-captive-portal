@@ -29,7 +29,7 @@
     $_SESSION['form_id'] = $form_id;
   }
 
-  $url = !empty($_GET['url']) ? $_GET['url'] : (isset($_POST['redirect_to']) ? $_POST['redirect_to'] : "http://www.google.com");
+  $url = !empty($_GET['url']) ? $_GET['url'] : "http://www.google.com";
   $form_hash = sha1($form_id);
 
   include("views/connect.php");
